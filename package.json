@@ -1,5 +1,5 @@
 {
-  "name": "@airbnb/node-memwatch",
+  "name": "@HolgerFrank/node-memwatch",
   "description": "Keep an eye on your memory usage, and discover and isolate leaks.",
   "version": "1.0.2",
   "author": "Lloyd Hilaiel (http://lloyd.io)",
