@@ -9,8 +9,14 @@
         'src/heapdiff.cc',
         'src/init.cc',
         'src/memwatch.cc',
-        'src/util.cc',
-        'src/sys/time.cc'
+        'src/util.cc'
+      ],
+      'conditions': [
+        ['OS == "win"', {
+          'sources': [
+             'src/sys/time.cc'
+          ]}
+        ]
       ]
     }
   ]

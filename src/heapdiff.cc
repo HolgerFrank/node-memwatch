@@ -7,7 +7,12 @@
 #include <vector>
 
 #include <stdlib.h> // abs()
+
+#ifdef _WIN32
 #include "sys/time.h" // time()
+#else
+#include <time.h>   // time()
+#endif
 
 #include "heapdiff.hh"
 #include "util.hh"

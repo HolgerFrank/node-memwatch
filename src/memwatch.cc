@@ -15,7 +15,13 @@
 #include <sstream>
 
 #include <math.h> // for pow
-#include "sys/time.h"
+
+#ifdef _WIN32
+#include "sys/time.h" // for time
+#else
+#include <time.h> // for time
+#include <sys/time.h>
+#endif
 
 using namespace v8;
 using namespace node;
