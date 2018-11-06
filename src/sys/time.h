@@ -2,6 +2,6 @@
 
 #ifndef _TIMES_H
 
-#include <times.h>
+#include "times.h"
 
 #endif
