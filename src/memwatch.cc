@@ -15,7 +15,7 @@
 #include <sstream>
 
 #include <math.h> // for pow
-#include "sys/time.h"
+#include <sys/time.h>
 
 using namespace v8;
 using namespace node;

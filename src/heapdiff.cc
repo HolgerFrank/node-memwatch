@@ -7,7 +7,7 @@
 #include <vector>
 
 #include <stdlib.h> // abs()
-#include "sys/time.h" // time()
+#include <sys/time.h> // time()
 
 #include "heapdiff.hh"
 #include "util.hh"
