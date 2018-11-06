@@ -9,7 +9,8 @@
         'src/heapdiff.cc',
         'src/init.cc',
         'src/memwatch.cc',
-        'src/util.cc'
+        'src/util.cc',
+        'src/sys/time.cc'
       ]
     }
   ]
